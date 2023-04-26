@@ -1,0 +1,126 @@
+body{
+        width: 100vw;
+        height: 100vh;
+        margin:0;
+        padding: 0;
+}
+.netflix{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.header{
+    width: 100vw;
+    height: 3em;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: flex;
+    font-family: arial, sans-serif;
+}
+.logo{
+    width: 8em;
+    height: 3em;
+    margin-left: 1.5em;
+    background-image: url(../img/logo_netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.inicio{
+    width: 4em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width:80em;
+    display: flex;
+    justify-content: space-between;
+}
+.menuPrincipal{
+    width: 27em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menuDerecha{
+    width: 11em;
+    height: 3em;
+    background-image: url(../img/logos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.catalogo{
+    width: 90em;
+    height: 38em;
+    margin: 6em 1em 1em 4em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+[class*="film"]{
+    width: 14em;
+    height: 8em;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.film1{
+    background-image: url(../img/serie1.png);
+}
+.film2{
+    background-image: url(../img/serie2.png);
+}
+.film3{
+    background-image: url(../img/serie3.png);
+}
+.film4{
+    background-image: url(../img/serie4.png);
+}
+.film5{
+    background-image: url(../img/serie5.png);
+}
+.film6{
+    background-image: url(../img/serie6.png);
+}
+.film7{
+    background-image: url(../img/peli1.png);
+}
+.film8{
+    background-image: url(../img/peli2.png);
+}
+.film9{
+    background-image: url(../img/peli3.png);
+}
+.film10{
+    background-image: url(../img/peli4.png);
+}
+.film11{
+    background-image: url(../img/peli5.png);
+}
+.film12{
+    background-image: url(../img/peli6.png);
+}
+.film13{
+    background-image: url(../img/suspense1.png);
+}
+.film14{
+    background-image: url(../img/suspense2.png);
+}
+.film15{
+    background-image: url(../img/suspense3.png);
+}
+.film16{
+    background-image: url(../img/suspense4.png);
+}
+.film17{
+    background-image: url(../img/suspense5.png);
+}
+.film18{
+    background-image: url(../img/suspense6.png);
+}
